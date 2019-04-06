@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		7714B31D1CC6672D000EE2BC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7714B31C1CC6672D000EE2BC /* SearchViewController.swift */; };
-		7719E0141CC6021D0029B62C /* ConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719E0131CC6021D0029B62C /* ConsoleViewController.swift */; };
+		7719E0141CC6021D0029B62C /* TerminalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719E0131CC6021D0029B62C /* TerminalViewController.swift */; };
 		7719E0171CC604160029B62C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719E0161CC604160029B62C /* SettingsViewController.swift */; };
 		7719E01B1CC608390029B62C /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7719E01A1CC608390029B62C /* RepositoriesViewController.swift */; };
 		7719E0201CC60AD30029B62C /* QR.png in Resources */ = {isa = PBXBuildFile; fileRef = 7719E01F1CC60AD30029B62C /* QR.png */; };
-		7729FDE01CC66F1E00A19219 /* Shot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7729FDDE1CC66F1E00A19219 /* Shot1.png */; };
-		7729FDE11CC66F1E00A19219 /* Shot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7729FDDF1CC66F1E00A19219 /* Shot2.png */; };
 		775CD24F1CC8D4DF003CB069 /* ScreenshotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775CD24E1CC8D4DF003CB069 /* ScreenshotsViewController.swift */; };
 		775CD2511CC8D93B003CB069 /* Authenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775CD2501CC8D93B003CB069 /* Authenticate.swift */; };
 		7777CE3B1CC648C800AB3049 /* InstalledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777CE3A1CC648C800AB3049 /* InstalledViewController.swift */; };
 		7777CE3E1CC64E0600AB3049 /* UpdatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777CE3D1CC64E0600AB3049 /* UpdatesViewController.swift */; };
 		7777CE401CC653DE00AB3049 /* Cydia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7777CE3F1CC653DE00AB3049 /* Cydia.jpg */; };
+		778547E11CC94EBE0001D08A /* FBShimmering in Resources */ = {isa = PBXBuildFile; fileRef = 778547E01CC94EBE0001D08A /* FBShimmering */; };
 		7787257E1CC600C800CF19D7 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7787257D1CC600C800CF19D7 /* AppViewController.swift */; };
+		779C89E51CC956CD00066491 /* RepositoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779C89E41CC956CD00066491 /* RepositoryCell.swift */; };
 		77D9430B1CC5F1EF002206D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9430A1CC5F1EF002206D4 /* AppDelegate.swift */; };
 		77D9430D1CC5F1EF002206D4 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9430C1CC5F1EF002206D4 /* FeaturedViewController.swift */; };
 		77D9430F1CC5F1EF002206D4 /* TopChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9430E1CC5F1EF002206D4 /* TopChartsViewController.swift */; };
@@ -30,18 +30,19 @@
 
 /* Begin PBXFileReference section */
 		7714B31C1CC6672D000EE2BC /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		7719E0131CC6021D0029B62C /* ConsoleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleViewController.swift; sourceTree = "<group>"; };
+		7719E0131CC6021D0029B62C /* TerminalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerminalViewController.swift; sourceTree = "<group>"; };
 		7719E0161CC604160029B62C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		7719E01A1CC608390029B62C /* RepositoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesViewController.swift; sourceTree = "<group>"; };
 		7719E01F1CC60AD30029B62C /* QR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QR.png; sourceTree = "<group>"; };
-		7729FDDE1CC66F1E00A19219 /* Shot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shot1.png; sourceTree = "<group>"; };
-		7729FDDF1CC66F1E00A19219 /* Shot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shot2.png; sourceTree = "<group>"; };
 		775CD24E1CC8D4DF003CB069 /* ScreenshotsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenshotsViewController.swift; sourceTree = "<group>"; };
 		775CD2501CC8D93B003CB069 /* Authenticate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authenticate.swift; sourceTree = "<group>"; };
 		7777CE3A1CC648C800AB3049 /* InstalledViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstalledViewController.swift; sourceTree = "<group>"; };
 		7777CE3D1CC64E0600AB3049 /* UpdatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatesViewController.swift; sourceTree = "<group>"; };
 		7777CE3F1CC653DE00AB3049 /* Cydia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cydia.jpg; sourceTree = "<group>"; };
+		778547E01CC94EBE0001D08A /* FBShimmering */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FBShimmering; sourceTree = "<group>"; };
+		778547E21CC94EFC0001D08A /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		7787257D1CC600C800CF19D7 /* AppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		779C89E41CC956CD00066491 /* RepositoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepositoryCell.swift; path = ../RepositoryCell.swift; sourceTree = "<group>"; };
 		77D943071CC5F1EF002206D4 /* Pub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D9430A1CC5F1EF002206D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77D9430C1CC5F1EF002206D4 /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +90,7 @@
 				7719E0161CC604160029B62C /* SettingsViewController.swift */,
 				7777CE3A1CC648C800AB3049 /* InstalledViewController.swift */,
 				7777CE3D1CC64E0600AB3049 /* UpdatesViewController.swift */,
-				7719E01A1CC608390029B62C /* RepositoriesViewController.swift */,
+				779C89E61CC956EA00066491 /* Repositories */,
 				775CD2501CC8D93B003CB069 /* Authenticate.swift */,
 			);
 			name = Settings;
@@ -100,9 +101,35 @@
 			children = (
 				7787257D1CC600C800CF19D7 /* AppViewController.swift */,
 				775CD24E1CC8D4DF003CB069 /* ScreenshotsViewController.swift */,
-				7719E0131CC6021D0029B62C /* ConsoleViewController.swift */,
+				7719E0131CC6021D0029B62C /* TerminalViewController.swift */,
 			);
 			name = App;
+			sourceTree = "<group>";
+		};
+		779C89E01CC951DA00066491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				778547E01CC94EBE0001D08A /* FBShimmering */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		779C89E11CC951F000066491 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77D943181CC5F1EF002206D4 /* Info.plist */,
+				778547E21CC94EFC0001D08A /* Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		779C89E61CC956EA00066491 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				7719E01A1CC608390029B62C /* RepositoriesViewController.swift */,
+				779C89E41CC956CD00066491 /* RepositoryCell.swift */,
+			);
+			name = Repositories;
 			sourceTree = "<group>";
 		};
 		77D942FE1CC5F1EF002206D4 = {
@@ -127,13 +154,12 @@
 				77D943101CC5F1EF002206D4 /* Main.storyboard */,
 				77D9430A1CC5F1EF002206D4 /* AppDelegate.swift */,
 				7719E0151CC603EB0029B62C /* View Controllers */,
-				77D943131CC5F1EF002206D4 /* Assets.xcassets */,
+				779C89E01CC951DA00066491 /* Frameworks */,
+				779C89E11CC951F000066491 /* Supporting Files */,
 				77D943151CC5F1EF002206D4 /* LaunchScreen.storyboard */,
-				77D943181CC5F1EF002206D4 /* Info.plist */,
+				77D943131CC5F1EF002206D4 /* Assets.xcassets */,
 				7719E01F1CC60AD30029B62C /* QR.png */,
 				7777CE3F1CC653DE00AB3049 /* Cydia.jpg */,
-				7729FDDE1CC66F1E00A19219 /* Shot1.png */,
-				7729FDDF1CC66F1E00A19219 /* Shot2.png */,
 			);
 			path = Pub;
 			sourceTree = "<group>";
@@ -197,13 +223,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7729FDE11CC66F1E00A19219 /* Shot2.png in Resources */,
 				77D943171CC5F1EF002206D4 /* LaunchScreen.storyboard in Resources */,
 				77D943141CC5F1EF002206D4 /* Assets.xcassets in Resources */,
 				77D943121CC5F1EF002206D4 /* Main.storyboard in Resources */,
+				778547E11CC94EBE0001D08A /* FBShimmering in Resources */,
 				7777CE401CC653DE00AB3049 /* Cydia.jpg in Resources */,
 				7719E0201CC60AD30029B62C /* QR.png in Resources */,
-				7729FDE01CC66F1E00A19219 /* Shot1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,13 +240,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7714B31D1CC6672D000EE2BC /* SearchViewController.swift in Sources */,
-				7719E0141CC6021D0029B62C /* ConsoleViewController.swift in Sources */,
+				7719E0141CC6021D0029B62C /* TerminalViewController.swift in Sources */,
 				77D9430F1CC5F1EF002206D4 /* TopChartsViewController.swift in Sources */,
 				77D9430B1CC5F1EF002206D4 /* AppDelegate.swift in Sources */,
 				7787257E1CC600C800CF19D7 /* AppViewController.swift in Sources */,
 				77D9430D1CC5F1EF002206D4 /* FeaturedViewController.swift in Sources */,
 				7719E01B1CC608390029B62C /* RepositoriesViewController.swift in Sources */,
 				7719E0171CC604160029B62C /* SettingsViewController.swift in Sources */,
+				779C89E51CC956CD00066491 /* RepositoryCell.swift in Sources */,
 				775CD2511CC8D93B003CB069 /* Authenticate.swift in Sources */,
 				775CD24F1CC8D4DF003CB069 /* ScreenshotsViewController.swift in Sources */,
 				7777CE3B1CC648C800AB3049 /* InstalledViewController.swift in Sources */,
@@ -338,8 +364,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Pub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = es.charlesfri.Pub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pub/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -349,8 +377,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Pub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = es.charlesfri.Pub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pub/Bridging-Header.h";
 			};
 			name = Release;
 		};

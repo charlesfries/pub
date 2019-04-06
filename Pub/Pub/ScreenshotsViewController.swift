@@ -3,14 +3,6 @@ import UIKit
 
 class ScreenshotsViewController: UIViewController,UIScrollViewDelegate {
     
-    //var screenshots: [UIImage]!
-    
-    
-    
-    
-    
-    
-    
     @IBOutlet var scrollView: UIScrollView!
     var colors:[UIColor] = [UIColor.redColor(), UIColor.blueColor(), UIColor.greenColor(), UIColor.yellowColor()]
     var frame: CGRect = CGRectMake(0, 0, 0, 0)
@@ -18,7 +10,6 @@ class ScreenshotsViewController: UIViewController,UIScrollViewDelegate {
     
     
     override func viewDidLoad() {
-        title = "Screenshots"
         
         self.pageControl.numberOfPages = colors.count
         self.pageControl.currentPage = 0
@@ -26,7 +17,7 @@ class ScreenshotsViewController: UIViewController,UIScrollViewDelegate {
         
         scrollView.delegate = self
         self.view.addSubview(scrollView)
-        var count = 0
+        
         for index in 0..<4 {
             
             frame.origin.x = self.scrollView.frame.size.width * CGFloat(index)
@@ -35,18 +26,8 @@ class ScreenshotsViewController: UIViewController,UIScrollViewDelegate {
             
             let subView = UIView(frame: frame)
             subView.backgroundColor = colors[index]
-            
-            
-            /*let pic = UIImageView()
-            pic.image = screenshots[count]
-            pic.frame.size.width = subView.frame.size.width
-            pic.frame.size.height = subView.frame.size.height
-            
-            subView.addSubview(pic)*/
-            
-            
+
             self.scrollView.addSubview(subView)
-            count++
         }
         
         self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width * 4, self.scrollView.frame.size.height)

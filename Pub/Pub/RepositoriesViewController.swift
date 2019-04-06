@@ -21,14 +21,24 @@ class RepositoriesViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return titles.count
+        
+        return 3
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("UITableViewCell", forIndexPath: indexPath) as UITableViewCell
         cell.textLabel!.text = titles[indexPath.row]
         cell.detailTextLabel!.text = urls[indexPath.row]
+        cell.imageView!.image = scaleUIImageToSize(UIImage(named: "Cydia.jpg")!, size: CGSize(width: 30, height: 30))
         return cell
+        
+        /*let cell: RepositoryCell = self.tableView.dequeueReusableCellWithIdentifier("CustomTableViewCell") as! RepositoryCell
+        
+        cell.icon.image = UIImage(named: "Cydia.jpg")!
+        cell.name.text = titles[indexPath.row]
+        cell.url.text = urls[indexPath.row]
+        
+        return cell*/
     }
     
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
@@ -61,5 +71,18 @@ class RepositoriesViewController: UITableViewController {
         }))
         
         presentViewController(alert, animated: true, completion: nil)
+    }
+    
+    func scaleUIImageToSize(let image: UIImage, let size: CGSize) -> UIImage {
+        let hasAlpha = false
+        let scale: CGFloat = 0.0 // Automatically use scale factor of main screen
+        
+        UIGraphicsBeginImageContextWithOptions(size, !hasAlpha, scale)
+        image.drawInRect(CGRect(origin: CGPointZero, size: size))
+        
+        let scaledImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return scaledImage
     }
 }
